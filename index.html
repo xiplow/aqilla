@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sewa Lapangan Futsal Pekalongan</title>
+
+  <style>
+    /* ==== CSS DIMULAI ==== */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #009245, #2ecc71);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background-color: #006837;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: #00a859;
+      transition: 0.3s;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    h2 {
+      color: #009245;
+      margin-bottom: 1rem;
+    }
+
+    /* Gaya untuk kartu lapangan */
+    .lapangan-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 0 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      color: #006837;
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      padding: 0 10px 15px;
+      font-size: 0.95rem;
+    }
+
+    /* Tabel harga */
+    table {
+      width: 90%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #009245;
+      color: white;
+    }
+
+    /* Form pemesanan */
+    form {
+      max-width: 400px;
+      margin: 1rem auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    label {
+      text-align: left;
+      font-weight: 600;
+    }
+
+    input, select, button {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #aaa;
+    }
+
+    button {
+      background-color: #009245;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #007a33;
+    }
+
+    footer {
+      background-color: #006837;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Lapangan Futsal Pekalongan</h1>
+    <p>Tempat terbaik untuk bermain futsal bersama teman-teman!</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#lapangan">Lapangan</a></li>
+      <li><a href="#harga">Harga</a></li>
+      <li><a href="#pesan">Pesan</a></li>
+    </ul>
+  </nav>
+
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>
+      Sewa Lapangan Futsal Pekalongan merupakan pusat olahraga modern dengan fasilitas lengkap —
+      lapangan berstandar nasional, pencahayaan malam, ruang ganti, serta area parkir yang luas.
+      Kami berkomitmen memberikan kenyamanan dan pengalaman terbaik bagi semua pecinta futsal di Pekalongan.
+    </p>
+  </section>
+
+  <section id="lapangan">
+    <h2>Lapangan Kami</h2>
+    <div class="lapangan-container">
+      <div class="card">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrWjZVMQN94KQjjEP5-XjZOny_egpLoBGMksqLEHgkAa6zLxxMerq6AwSdBe28Mf4frUnqriJOkPJSErdaIiSYzHlV4AwATUXUjIJ-Eza52RMU9F8J6irtFlSg4qy-3NNRMTxI=s1360-w1360-h1020-rw" alt="Lapangan Futsal Indoor" />
+        <h3>Lapangan Viva Sport Arena</h3>
+        <p>Lapangan futsal indoor dengan matras premium dan pencahayaan LED terang.</p>
+      </div>
+      <div class="card">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4npslpPdjXNqA3NeB6pFtmM6Xqo57a6wDBy6I-azuVlFIxTwvKBzdF5MA6ps0-reJrR8BGUAVjt5xuVQU9p2xBhH4GcPmP86y-47qE2xuBUy9rwlHh-5x-TWU5erCqOnh6JQydSMSw=s1360-w1360-h1020-rw" alt="Lapangan Futsal Outdoor" />
+        <h3>Lapangan ELSSO SPORT</h3>
+        <p>Lapangan outdoor dengan area luas, cocok untuk turnamen antar komunitas dan sekolah.</p>
+      </div>
+      <div class="card">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipPwhfvcq6AzAb8jOM2EisaywlspzWngf1B5E8Ce=s1360-w1360-h1020-rw" alt="Lapangan Pro Futsal" />
+        <h3>Lapangan Pro Futsal</h3>
+        <p>Lapangan semi indoor dengan ventilasi alami dan permukaan matras lembut untuk permainan nyaman.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="harga">
+    <h2>Harga Sewa Lapangan</h2>
+    <table>
+      <tr>
+        <th>Nama Lapangan</th>
+        <th>Harga per Jam</th>
+        <th>Fasilitas</th>
+      </tr>
+      <tr>
+        <td>Lapangan Garuda</td>
+        <td>Rp 120.000</td>
+        <td>AC, ruang ganti, mushola, Wi-Fi</td>
+      </tr>
+      <tr>
+        <td>Lapangan Rajawali</td>
+        <td>Rp 100.000</td>
+        <td>Outdoor, tribun penonton, parkir luas</td>
+      </tr>
+      <tr>
+        <td>Lapangan Cendrawasih</td>
+        <td>Rp 110.000</td>
+        <td>Semi indoor, kantin, toilet bersih</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="pesan">
+    <h2>Form Pemesanan</h2>
+    <form onsubmit="return pesanBerhasil()">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+      <label for="lapangan">Pilih Lapangan:</label>
+      <select id="lapangan" name="lapangan">
+        <option value="Garuda">Lapangan Garuda</option>
+        <option value="Rajawali">Lapangan Rajawali</option>
+        <option value="Cendrawasih">Lapangan Cendrawasih</option>
+      </select>
+
+      <label for="tanggal">Tanggal Sewa:</label>
+      <input type="date" id="tanggal" name="tanggal" required>
+
+      <label for="waktu">Jam Sewa:</label>
+      <input type="time" id="waktu" name="waktu" required>
+
+      <button type="submit">Kirim Pesanan</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lapangan Futsal Pekalongan | Semua Hak Dilindungi</p>
+  </footer>
+
+  <script>
+    function pesanBerhasil() {
+      alert("✅ Terima kasih! Pemesanan Anda telah dikirim. Kami akan segera menghubungi Anda.");
+      return false; // agar halaman tidak reload
+    }
+  </script>
+</body>
+</html>
